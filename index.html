@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header_container">
+        <img src="./img/codoacodo.png" alt="Logo codo a codo">
+        <h1>Conf Bs As</h1>
+        <div>
+            <a href="index.html">La conferencia</a>
+            <a href="">Los oradores</a>
+            <a href="">El lugar y la fecha</a>
+            <a href="">Conviértete en orador</a>
+            <a href="" class="comprar">Comprar tickets</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor_conferencia" style="width: 100vw; height: 100vh;">
+            <div class="div_vacio"></div>
+            <div class="texto_conferencia">
+                <h2>Conf Bs As</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, doloribus. Eaque ab voluptate error
+                    mollitia nihil porro fuga sunt dignissimos adipisci similique, illum quis corrupti quae in fugiat.
+                    Molestias, fuga?
+                </p>
+
+                <div class="button_conferencia">
+                    <button class="button_orador">Quiero ser orador</button>
+                    <button class="button_comprar">Comprar tickets</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor_oradores">
+            <h3>CONOCE A LOS</h3>
+            <h4>ORADORES</h4>
+            <div class="oradores">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary-js">JavaScript</a>
+                        <a href="#" class="btn btn-primary-r">React</a>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                            facilis
+                            assumenda earum ipsam animi culpa beatae voluptates, veritatis repellendus, porro ab,
+                            temporibus
+                            laborum cupiditate odit natus optio labore voluptas in.</p>
+
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary-js">JavaScript</a>
+                        <a href="#" class="btn btn-primary-r">React</a>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                            facilis
+                            assumenda earum ipsam animi culpa beatae voluptates, veritatis repellendus, porro ab,
+                            temporibus
+                            laborum cupiditate odit natus optio labore voluptas in.</p>
+
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary-n">Negocios</a>
+                        <a href="#" class="btn btn-primary-s">Startups</a>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                            facilis assumenda earum ipsam animi culpa beatae voluptates, veritatis repellendus, porro
+                            ab, temporibus laborum cupiditate odit natus optio labore voluptas in.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor_honolulu">
+            <div class="contenedor_img">
+                <img src="./img/honolulu.jpg" alt="Imagen Honolulu" style="width: 50vw; height: 50vh;">
+            </div>
+            <div class="contenedor_honolulu_texto">
+                <h4>Bs As - Octubre</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum itaque tempora modi hic cumque
+                    officia quasi numquam unde incidunt repellendus! Est, reprehenderit quam odit delectus iure dolores
+                    corporis impedit necessitatibus.</p>
+                <button class="button_orador">Conocé más</button>
+            </div>
+        </section>
+
+        <section class="contenedor_formulario">
+            <h3>CONVIÉRTETE EN UN</h3>
+            <h4>ORADOR</h4>
+            <div class="formulario">
+                <p>Anotate como orador para dar una charla. Cuentanos de qué quieres hablar!</p>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+
+                    <div>
+                        <textarea cols="72" rows="5">¿Sobre qué quieres hablar?</textarea>
+                    </div>
+
+                    <div>
+                        <p>Recuerda incluir un titulo para tu charla</p>
+                    </div>
+
+                    <div>
+                        <button class="button_enviar">Enviar</button>
+                    </div>
+            </div>
+            </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Contáctanos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Términos y Condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

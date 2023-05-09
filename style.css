@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+.header_container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+    font-size: 2vh;
+}
+
+header img {
+    height: 10vh;
+    width: 15vw;
+}
+
+h1 {
+    color: gray;
+    font-size: 3vh;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 1vh 1vw;
+}
+
+.comprar {
+    color: green;
+}
+
+/*1° Section  -  Conferencia*/
+.contenedor_conferencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    background-image: url(./img/ba1.jpg);
+    width: 100vw;
+    background-color: transparent;
+    font-size: small;
+}
+
+.div_vacio {
+    height: 100vh;
+    width: 100vw;
+}
+
+.texto_conferencia {
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    text-align: right;
+    color: white;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.button_conferencia {
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 1vw;
+
+}
+
+.button_orador {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 1vh;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    color: white;
+}
+
+.button_comprar {
+    background-color: green;
+    border-color: green;
+    border-radius: 1vh;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    color: white;
+}
+
+/*2° Section  -  Oradores*/
+.contenedor_oradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+}
+
+.contenedor_oradores h3 {
+    font-size: 1.5vh;
+}
+
+.contenedor_oradores h4 {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.oradores {
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+}
+
+.card {
+    display: flex;
+    margin: 1vh;
+}
+
+.btn-primary-js {
+    background-color: orange;
+    font-weight: bold;
+    font-size: 1.5vh;
+    padding: 0vh 0.5vw;
+}
+
+.btn-primary-r {
+    background-color: rgb(9, 122, 160);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vh;
+    padding: 0vh 0.5vw;
+}
+
+.btn-primary-n {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vh;
+    padding: 0vh 0.5vw;
+}
+
+.btn-primary-s {
+    background-color: rgb(238, 44, 44);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vh;
+    padding: 0vh 0.5vw;
+}
+
+/*3° Section  -  Honolulu*/
+.contenedor_img {
+    /*background-image: url(./img/honolulu.jpg);*/
+    height: 50vh;
+    width: 50vw;
+}
+
+.contenedor_honolulu {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(75, 75, 75);
+}
+
+.contenedor_honolulu_texto {
+    padding: 2vh;
+}
+
+/*4° Section  -  Formulario*/
+.contenedor_formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+}
+
+.contenedor_formulario h3 {
+    font-size: 1.5vh;
+}
+
+.contenedor_formulario h4 {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.formulario div{
+    color: gray;
+    margin: 1vh;
+}
+
+.button_enviar{
+    background-color: green;
+    border-color: green;
+    border-radius: 1vh;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    color: white;
+    width: 40vw;
+}
+
+/*Footer*/
+.footer {
+    background-color: rgb(0, 0, 87);
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.footer a {
+    color: white;
+}
