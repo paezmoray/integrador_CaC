@@ -15,8 +15,10 @@
 
 <body>
     <header class="header_container">
-        <img src="../img/codoacodo.png" alt="Logo codo a codo">
-        <h1>Conf Bs As</h1>
+        <a href="../index.html"><img src="../img/codoacodo.png" alt="Logo codo a codo"></a>
+        <a href="../index.html" >
+            <h1  class="titulo">Conf Bs As</h1>
+        </a>
         <div>
             <a href="../index.html">La conferencia</a>
             <a href="">Los oradores</a>
@@ -26,15 +28,72 @@
         </div>
     </header>
 
-    <main>
-        <section>
-            <div class="boxEstudiante"></div>
-            <div class="boxTrainee"></div>
-            <div class="boxJunior"></div>
+    <main  class="contenedor_formulario">
+        <section class="box">
+            <div id="boxEstudiante">
+                <h4>Estudiante</h4>
+                <p>Tienen un descuento</p>
+                <h4>80%</h4>
+                <p>*presentar documentación</p>
+            </div>
+            <div id="boxTrainee">
+                <h4>Trainee</h4>
+                <p>Tienen un descuento</p>
+                <h4>50%</h4>
+                <p>*presentar documentación</p>
+            </div>
+            <div id="boxJunior">
+                <h4>Junior</h4>
+                <p>Tienen un descuento</p>
+                <h4>15%</h4>
+                <p>*presentar documentación</p>
+            </div>
+
         </section>
 
         <section class="contenedor_formulario">
-            
+            <h3>VENTA</h3>
+            <h4>VALOR DEL TICKET $200</h4>
+            <div class="formulario">
+                <form>
+                    <div>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                    </div>
+
+                    <div>
+                        <input type="email" placeholder="Correo" id="correo"
+                        style="width: 98.7%; height: 50%;">
+                    </div>
+
+                    <div id="cantCat">
+                        <div>
+                            <label>Cantidad</label>
+                            <input type="number" id="cantidad" class="form-control" placeholder="Cantidad">
+                        </div>
+
+                        <div>
+                            <label for="">Categoria</label>
+                            <select class="form-control" name="categoria" id="categoria">
+                                <option value="Estudiante" >Estudiante</option>
+                                <option value="Trainee" >Trainee</option>
+                                <option value="Junior" >Junior</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div class="total">                        
+                        <input type="text" class="form-control result" id="total" placeholder="Total a pagar: $ " disabled>
+                    </div>
+
+                    <div>
+                        <button type="reset" class="buttonForm">Borrar</button>
+                        <button type="button" class="buttonForm" onclick="resumenCompra()">Resumen</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 

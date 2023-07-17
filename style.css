@@ -19,7 +19,12 @@ header img {
     width: 15vw;
 }
 
-h1 {
+.logo {
+    cursor: pointer;
+}
+
+.titulo {
+    cursor: pointer;
     color: gray;
     font-size: 3vh;
 }
@@ -41,7 +46,7 @@ a {
     justify-content: end;
     align-items: flex-end;
     background-image: url(./img/ba1.jpg);
-    width: 100vw;
+    width: 100%;
     background-color: transparent;
     font-size: small;
 }
@@ -93,8 +98,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1vh 1vw;
     padding: 1vh 1vw;
+    width: 100%;
 }
 
 .contenedor_oradores h3 {
@@ -109,7 +114,9 @@ a {
 .oradores {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     padding: 1vh;
+    width: 100%;
 }
 
 .card {
@@ -187,8 +194,18 @@ a {
 .formulario div{
     color: gray;
     margin: 1vh;
+    text-align: left;
 }
 
+#nombre {
+    width: 49%; 
+    height: 50%;
+}
+
+#apellido {
+    width: 49%; 
+    height: 50%;
+}
 .button_enviar{
     background-color: green;
     border-color: green;
@@ -196,7 +213,7 @@ a {
     padding: 0.5vh;
     margin: 0.5vh;
     color: white;
-    width: 40vw;
+    width: 100%;
 }
 
 /*Footer*/
@@ -210,3 +227,79 @@ a {
 .footer a {
     color: white;
 }
+
+/* Página comprar */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxEstudiante {
+    text-align: center;
+    padding: 1vh 1vw;
+    margin: 2vh 0.5vw;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(37, 37, 255);
+}
+
+#boxTrainee{
+    text-align: center;
+    padding: 1vh 1vw;
+    margin: 2vh 0.5vw;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 191, 255);
+}
+
+#boxJunior{
+    text-align: center;
+    padding: 1vh 1vw;
+    margin: 2vh 0.5vw;
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+
+#correo {
+    width: 50%;
+}
+
+#cantCat {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#cantCat div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: black;
+    width: 100%; 
+}
+
+.total {
+    background-color: aquamarine;
+    text-align: left;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: aqua;
+}
+.total p {
+    color: blue;
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.buttonForm{
+    background-color: green;
+    border-color: green;
+    border-radius: 1vh;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    color: white;
+    width: 40vw;
+}
+
